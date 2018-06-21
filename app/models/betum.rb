@@ -1,0 +1,2 @@
+class Betum < ApplicationRecord
+end

@@ -1,0 +1,13 @@
+<h1>New Betum</h1>
+=====
+  <% flash.each do |key, value| %>
+  <%= content_tag :div, value, class: "flash #{key}" %>
+<% end %>
+  =====
+  <%= session[:notice2] %><br>
+  <%="1" %>
+  <% test1=1 %>
+  <%= test1 = test1 + 2 %>
+<%= render 'form', betum: @betum %>
+
+<%= link_to 'Back', beta_path %>
