@@ -62,3 +62,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
 gem 'rspec'
+gem "rspec-rails", :group => [:development, :test]
+gem "activerecord"
+gem 'db-query-matchers'
+gem 'rails-controller-testing'
